@@ -39,7 +39,7 @@ app.listen( process.env.PORT || 3000);
 
 ## 修改使用
 
-**注意：**由于Aliyun OSS的限制，你需要修改 vue-laravel-file-manager 的部分代码以更好地使用。
+**注意:** 由于Aliyun OSS的限制，你需要修改 vue-laravel-file-manager 的部分代码以更好地使用。
 
 1. 在 `Thumbnail.vue` 和 `Preview.vue` 文件的`loadImage`方法中注释源代码，添加以下代码：
 
